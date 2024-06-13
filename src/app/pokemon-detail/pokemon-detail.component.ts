@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Pokemon} from '../pokemon';
-import * as jsonPokemonList from '../../assets/Pokemon.json';
 import { ActivatedRoute, Router } from '@angular/router';
 import {Location} from '@angular/common';
 import { PokedexService } from '../service/pokedex.service';

@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Pokemon } from '../pokemon';
 import * as jsonPokemonList from '../../assets/Pokemon.json';
-import { PokemonComponent } from '../pokemon/pokemon.component';
 
 @Injectable({
   providedIn: 'root'
